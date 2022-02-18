@@ -1,4 +1,6 @@
-<ul>
+<head>
+  <link rel="stylesheet" href="style.css">
+</head><ul>
   <li>
     <a href="#">
       <i class="fab fa-facebook-f"></i> Facebook
