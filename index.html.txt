@@ -1,5 +1,12 @@
 <head>
   <link rel="stylesheet" href="style.css">
+	<title>Charlotte Pommier's profile</title>
+	<meta name="description" content="This is Charlotte' profile">
+	<meta charset="UTF-8">
+
+	<!-- Link your stylesheet here -->
+	<link rel="stylesheet" href="style.css">
+  <head>
 </head><ul>
   <li>
     <a href="#">
