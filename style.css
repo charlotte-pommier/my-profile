@@ -1,0 +1,98 @@
+/* Colors and Fonts */
+
+body {
+	background: rgb(230, 230, 230);
+	color: black;
+}
+h1 {
+	color: black;
+	font-family: Times New Roman;
+	font-size: 32px;
+	line-height: 2
+}
+h2 {
+	color: pink;
+	font-family: Times New Roman;
+	font-size: 25px;
+	line-height: 1
+}
+
+h3 {
+	color: rgb (50, 50, 50);
+	font-family: Times New Roman;
+	font-size: 15px;
+	line-height: 1
+}
+a {
+	text-decoration: none;
+	color: red;
+}
+
+a:hover {
+	color: pink;
+}
+
+/* Custom design with class */
+.container {
+	width: 700px;
+	margin: 40px auto;
+}
+
+@media (max-width: 760px) {
+	.container{
+		width: 600px;
+	}
+}
+
+@media (max-width: 500px) {
+	.container{
+		width: 400px;
+	}
+}
+.card-white {
+	background-color: white;
+	padding: 40px;
+	box-shadow: 0px 10 px 30 px rgba(0,0,0,0,1);
+	border-radius: 4px;
+	margin: 20px 0px;
+	text-align: center;
+
+}
+
+.img-circle {
+	border-radius: 50%;
+}
+
+.btn-blue {
+	background-color: red;
+	color: white;
+	padding: 15px 20px;
+	border-radius: : 4px;
+}
+.btn-blue:hover{
+	background-color: black;
+	color: white;
+}
+
+.list-intline{
+	list-style: none;
+	padding-left: :0px;
+}
+.list-intline li{
+	display: : inline;
+	padding: 10px;
+}
+
+.list-intline i : {
+	font-size:50px;
+	color:rgb(230,230,230);
+}
+
+.list-intline i: hover{
+	color: pink;
+}
+
+/* Design adjustements usign id (1% design remaining)*/
+#introduction p {
+	margin-bottom: 40px;
+}
